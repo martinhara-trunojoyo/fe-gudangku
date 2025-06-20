@@ -9,7 +9,7 @@ import HeroDashboard from "./assets/pages/admin/Index";
 import TambahUMKM from "./assets/pages/admin/umkm/Tambah";
 import EditUMKM from "./assets/pages/admin/umkm/Edit";
 import PetugasIndex from "./assets/pages/admin/petugas/Index";
-import PetugasTambah from "./assets/pages/admin/petugas/tambah";
+import PetugasTambah from "./assets/pages/admin/petugas/Tambah";
 import PetugasEdit from "./assets/pages/admin/petugas/Edit";
 import SupplierIndex from "./assets/pages/shared/supplier/Index";
 import PetugasLayout from "./assets/layouts/petugas/Index";
