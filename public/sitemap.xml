@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Public -->
+  <url><loc>https://gudangku.martinharahap.software/</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/login</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/register</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/forgot-password</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/reset-password</loc></url>
+
+  <!-- Admin -->
+  <url><loc>https://gudangku.martinharahap.software/admin</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/dashboard</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/registrasi-umkm</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/edit-umkm</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/petugas</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/petugas/tambah</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/supplier</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/kategori</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/barang</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/laporan/masuk</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/admin/laporan/keluar</loc></url>
+
+  <!-- Petugas -->
+  <url><loc>https://gudangku.martinharahap.software/petugas</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/petugas/supplier</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/petugas/kategori</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/petugas/barang</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/petugas/laporan/masuk</loc></url>
+  <url><loc>https://gudangku.martinharahap.software/petugas/laporan/keluar</loc></url>
+</urlset>
