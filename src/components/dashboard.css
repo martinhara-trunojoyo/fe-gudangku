@@ -1,0 +1,151 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(252.93deg, rgba(104, 23, 255, 0.639665) 13.55%, rgba(247, 244, 253, 0.38) 36.15%, #F4F7FA 65.09%);
+}
+
+.dashboard-header {
+  background-color: transparent;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  color: white;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.logo-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo-name img {
+  width: 40px;
+  height: 40px;
+  margin-right: 8px;
+  vertical-align: middle;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo-name strong {
+  font-size: 20px;
+  color: black;
+}
+
+.dashboard-nav {
+  margin-right: 7rem;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.dashboard-nav a,
+.dashboard-dropdown > span {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dashboard-nav a:hover,
+.dashboard-dropdown > span:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.dashboard-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #333;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  min-width: 160px;
+  z-index: 1000;
+  padding: 4px 0;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: black;
+  color: white;
+}
+
+.dashboard-content {
+  
+  margin-left: 7rem;
+  flex: 1;
+  display: flex;
+  gap: 40px;
+  padding: 40px 60px;
+  align-items: center;
+  color: black;
+  overflow-y: auto;
+}
+
+.content-text h2 {
+  font-size: 24px;
+  font-weight: 600; 
+  margin: 0;
+}
+
+.content-text h1 {
+  font-size: 50px;
+  font-weight: 800; 
+  margin: 16px 0;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  line-height: 1.6;
+  
+}
+
+
+.content-image img {
+  width: 700px;
+  max-width: 700px;
+  height: 500px;
+
+}
+.dashboard-account {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.account-icon {
+  color: white;
+  font-size: 40px;
+}
+
+
